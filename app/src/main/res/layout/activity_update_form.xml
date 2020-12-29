@@ -17,17 +17,19 @@
             android:layout_marginBottom="20dp"
             android:gravity="center"
             android:textSize="32sp"
-            android:textColor="#ff00ff"
+            android:textColor="#F6F5F6"
             android:text="Cập nhật thông tin sinh viên"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#56ACF1"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
             android:text="MSSV:"
-            android:textSize="28sp" />
+            android:textSize="28sp"
+            android:textColor="#56ACF1"/>
 
         <EditText
             android:id="@+id/edt_mssv"
@@ -36,7 +38,8 @@
             android:textSize="28sp"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
 
         <TextView
             android:id="@+id/txt_alert_mssv"
@@ -53,14 +56,16 @@
             android:text="Họ tên:"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
 
         <EditText
             android:id="@+id/edt_hoten"
             android:textSize="28sp"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
 
         <TextView
             android:id="@+id/txt_alert_hoten"
@@ -84,15 +89,17 @@
                 android:layout_marginBottom="10dp"
                 android:layout_width="0dp"
                 android:layout_weight="1"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="#BBE6BD"/>
 
             <Button
                 android:id="@+id/btn_select_date"
                 android:text="Select"
                 android:layout_marginLeft="5dp"
-                android:textSize="28sp"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:background="#45DCCE"/>
 
         </LinearLayout>
 
@@ -117,14 +124,16 @@
             android:text="Địa chỉ:"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
 
         <EditText
             android:id="@+id/edt_diachi"
             android:textSize="28sp"
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
 
         <TextView
             android:id="@+id/txt_alert_diachi"
@@ -141,7 +150,8 @@
             android:text="Email:"
             android:layout_marginBottom="5dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
 
         <EditText
             android:id="@+id/edt_email"
@@ -149,7 +159,8 @@
             android:textSize="28sp"
             android:layout_marginBottom="10dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
 
         <TextView
             android:id="@+id/txt_alert_email"
@@ -163,12 +174,13 @@
 
         <Button
             android:id="@+id/btn_submit"
-            android:layout_marginBottom="10dp"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:textSize="26sp"
+            android:layout_marginBottom="10dp"
+            android:background="#45DCCE"
             android:text="Submit"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:textSize="26sp" />
 
     </LinearLayout>
 
