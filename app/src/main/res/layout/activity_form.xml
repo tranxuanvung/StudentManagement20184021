@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="5dp"
+    tools:context=".FormActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textSize="32sp"
+            android:textColor="#F1EBF1"
+            android:text="THEM MOI SINH VIEN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#56ACF1"/>
+
+        <TextView
+            android:textSize="28sp"
+            android:text="MSSV:"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
+
+        <EditText
+            android:id="@+id/edt_mssv"
+            android:inputType="number"
+            android:textSize="28sp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"
+            />
+
+        <TextView
+            android:id="@+id/txt_alert_mssv"
+            android:text="* Nhập MSSV"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="28sp"
+            android:text="Họ tên:"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
+
+        <EditText
+            android:id="@+id/edt_hoten"
+            android:textSize="28sp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
+
+        <TextView
+            android:id="@+id/txt_alert_hoten"
+            android:text="* Nhập họ tên sinh viên"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:inputType="date"
+                android:id="@+id/edt_ngaysinh"
+                android:textSize="28sp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="#BBE6BD"/>
+
+            <Button
+                android:id="@+id/btn_select_date"
+                android:layout_width="wrap_content"
+                android:layout_height="38dp"
+                android:layout_marginLeft="5dp"
+                android:background="#45DCCE"
+                android:text="Select"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txt_alert_dob"
+            android:text="* Nhập ngày sinh"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <DatePicker
+            android:visibility="gone"
+            android:id="@+id/date_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="28sp"
+            android:text="Địa chỉ:"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
+
+        <EditText
+            android:id="@+id/edt_diachi"
+            android:textSize="28sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
+
+        <TextView
+            android:id="@+id/txt_alert_diachi"
+            android:text="* Nhập địa chỉ sinh viên"
+            android:visibility="gone"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="28sp"
+            android:text="Email:"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#56ACF1"/>
+
+        <EditText
+            android:id="@+id/edt_email"
+            android:inputType="textEmailAddress"
+            android:textSize="28sp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F1E0DF"/>
+
+        <TextView
+            android:id="@+id/txt_alert_email"
+            android:visibility="gone"
+            android:text="* Nhập email"
+            android:layout_marginBottom="10dp"
+            android:textColor="#ff0000"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="274dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:background="#45DCCE"
+            android:text="Submit"
+            android:textSize="26sp" />
+    </LinearLayout>
+
+</ScrollView>
